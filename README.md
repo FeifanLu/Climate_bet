@@ -20,10 +20,12 @@ I dived into this debate and looked at the statistical evidence for global warmi
 
 **Packages:** forecast, fpp, ggplot2, astsa 
 
+**External tools:** Tableau 
+
 **Data Source:** https://data.giss.nasa.gov/gistemp/, https://sites.uea.ac.uk/cru/
 
 **Reading Material:** http://www.theclimatebet.com/, http://www.kestencgreen.com/G&ASkyfall.pdf
-https://repository.upenn.edu/cgi/viewcontent.cgiarticle=1161&context=marketing_papers
+https://repository.upenn.edu/cgi/viewcontent.cgiarticle=1161&context=marketing_papers, https://www.carbonbrief.org/explainer-how-do-scientists-measure-global-temperature
 
 **Modelling Reference:** https://otexts.com/fpp2/
 
@@ -39,6 +41,7 @@ Except for the difference of baseline peroid, this two dataset have different me
 
 
 ## EDA
+
 
 
 
