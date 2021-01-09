@@ -1,4 +1,4 @@
-# Climate_bet : 
+# Climate Bet : Statistical View of Global Warming
 ## Background: 
 Many believe that climate change is one of the biggest threats to humanity and that massive changes
 must be made in how we live to revert it and reduce its impact. 
@@ -22,3 +22,11 @@ view on the situation.
 * Utilize the rolling window cross-validation to find the best model for each dataset.
 * Train the two best models on the pre-2007 data and use them to make predictions. Then make the naïve model forecast of constant temperature per Mr. Armstrong  and compare the three models using the actual temperatures for 2007-2017 (a period of the bet).
 * Repeat the same analyses starting in the year 1999 with 10- and 20-year time-intervals.
+
+## Code and Resources Used 
+**R Version:** 3.7  
+**Packages:** pandas, numpy, sklearn, matplotlib, seaborn, selenium, flask, json, pickle  
+**For Web Framework Requirements:**  ```pip install -r requirements.txt```  
+**Scraper Github:** https://github.com/arapfaik/scraping-glassdoor-selenium  
+**Scraper Article:** https://towardsdatascience.com/selenium-tutorial-scraping-glassdoor-com-in-10-minutes-3d0915c6d905  
+**Flask Productionization:** https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2
