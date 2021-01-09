@@ -37,7 +37,7 @@ UK MET dataset is from 1850 tp 2020 and the baseline is 1961-1990.
 The best estimate for average global temperature for the baseline 30-year period of 1951 through 1980 is [14°C](https://earthobservatory.nasa.gov/world-of-change/global-temperatures). Therefore, 14 degrees Celsius was added as a constant to both datasets to reversely transform the data from anomalies to actual measured values of temperatures. 
 
 As we notice, the baseline for NASA dataset is 1951-1980(30 years) and for UK MET dataset is 1961-1990(30 years). Though the two datasets have baselines close by, it is essential to note small differences while comparing the two datasets. The baseline of UK MET data set is 0.056041667 degrees Celsius lower compared with NASA dataset.
-Except for the difference of baseline peroid, this two dataset have different measruing ways as well. Some other reasons such as differnt locations, time points for measuring can also potentially casue variations of the measured values. Based on these factors, 0.056041667 is not significant and I decided not to consider it for the simplicity of the analysis. 
+Except for the difference of baseline peroid, these two datasets have different measruing ways as well. Some other reasons such as differnt locations, time points for measuring can also potentially casue variations of the measured values. Based on these factors, 0.056041667 is not significant and I decided not to consider it for the simplicity of the analysis. 
 
 
 ## EDA
