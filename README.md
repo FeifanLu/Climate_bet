@@ -17,8 +17,12 @@ I dived into this debate and looked at the statistical evidence for global warmi
 
 ## Code and Resources Used 
 **R Version:** 4.03 
+
 **Packages:** forecast, fpp, ggplot2, astsa 
+
 **Data Source:** https://data.giss.nasa.gov/gistemp/, https://sites.uea.ac.uk/cru/
+
 **Reading Material:** http://www.theclimatebet.com/, http://www.kestencgreen.com/G&ASkyfall.pdf
 https://repository.upenn.edu/cgi/viewcontent.cgiarticle=1161&context=marketing_papers
+
 **Modelling Reference:** https://otexts.com/fpp2/
