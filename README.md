@@ -55,10 +55,10 @@ I followed a four-step approach in this part. First, explore the time series dat
 From the above, I can infer that during the late 19th century, the temperature change was negative with no apparent trend. However, in the early 20th century around approximately 1910, the temperature increase trend is noticeable. This could be due to the economic growth and industrial revolutions around the world that had a noticeable global warming impact starting from 20th century. While the impact of industrial revolution on climate is not the focus of this project, without any analysis and just by visualizing the above graphs we could infer this point.
 
 
-<p float="left">
+
 <img src="https://github.com/FeifanLu/Climate_bet/blob/main/Climate_bet/NASA.png" width="500"> 
 <img src="https://github.com/FeifanLu/Climate_bet/blob/main/Climate_bet/NASA2.png" width="500">
-</p>
+
 
 <img src="https://github.com/FeifanLu/Climate_bet/blob/main/Climate_bet/UK.png" width="500">
 
