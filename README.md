@@ -98,7 +98,9 @@ Excerpts as below
 [The forecast of 0.159 is based on another dataset UAH.](https://www.nsstc.uah.edu/data/msu/v6.0/tlt/uahncdc_lt_6.0.txt)
 The graph below shows the comparison between Armstrong and Al Gore forecast from climate challenge
 
-<img src="(https://github.com/FeifanLu/Climate_bet/blob/main/Climate_bet/Naive_model.png)" width="500" lengt="600">
+<img src="https://github.com/FeifanLu/Climate_bet/blob/main/Climate_bet/Naive_model.png" width="500" lengt="600">
+
+
 
 
 
