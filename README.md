@@ -41,8 +41,8 @@ Except for the difference of baseline peroid, these two datasets have different 
 
 
 ## EDA
-![image](https://github.com/FeifanLu/Climate_bet/blob/main/Climate_bet/EDA_NASA.png)
-![image](https://github.com/FeifanLu/Climate_bet/blob/main/Climate_bet/EDA_UK.png)
+![image](https://github.com/FeifanLu/Climate_bet/blob/main/Climate_bet/EDA_NASA.png=250x250)
+![image](https://github.com/FeifanLu/Climate_bet/blob/main/Climate_bet/EDA_UK.png=250x250)
 
 
 
