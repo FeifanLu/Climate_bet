@@ -51,7 +51,7 @@ From the above, we can infer that during the late 19th century, the temperature 
 ## Model Building
 I followed a four-step approach in this part. First, explore the time series data visually by graphs, including patterns, changes over times and remainder term. Secondly, check stationarity and differencing, since time series with trends, seasonality are not stationary and will affect model’s prediction. Third, based on step 1 and step 2’s analysis build models.  Fourth, compare the overall performances of the candidate models using both cross validation method and accuracy test to identify the best performing model. 
    
-<img src="https://github.com/FeifanLu/Climate_bet/blob/main/Climate_bet/EDA_UK.png" width="800">
+<img src="https://github.com/FeifanLu/Climate_bet/blob/main/Climate_bet/Modelling_Process.png" width="800">
 
 
 
