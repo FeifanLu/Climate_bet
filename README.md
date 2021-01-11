@@ -41,8 +41,10 @@ Except for the difference of baseline peroid, these two datasets have different 
 
 
 ## EDA
-<img src="https://github.com/FeifanLu/Climate_bet/blob/main/Climate_bet/EDA_NASA.png" width="500">
+<p float="left">
+<img src="https://github.com/FeifanLu/Climate_bet/blob/main/Climate_bet/EDA_NASA.png" width="500"> 
 <img src="https://github.com/FeifanLu/Climate_bet/blob/main/Climate_bet/EDA_UK.png" width="500">
+</p>
 
 From the above, we can infer that during the late 19th century, the temperature change was negative with no apparent trend. However, in the early 20th century around approximately 1910, the temperature increase trend is noticeable. This could be due to the economic growth and industrial revolutions around the world that had a noticeable global warming impact starting from 20th century. While the impact of industrial revolution on climate is not focus of this case study, without any analysis and just by visualizing the above graphs we could infer this point.
 
