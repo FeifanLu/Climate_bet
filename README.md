@@ -57,13 +57,14 @@ From the above, I can infer that during the late 19th century, the temperature c
 #### NASA ####
 For NASA’s data set, from the plot below, there is a clear and increasing trend starts from 1970s (Figure 2). About the seasonality (Figure 3), I couldn’t visually  see a strong seasonal pattern. From the data STL decomposition plot (Figure 4), we could see that the reminder component shown in the bottom panel is what is left over when the seasonal and trend-cycle components have been subtracted from the data.  
 <img src="https://github.com/FeifanLu/Climate_bet/blob/main/Climate_bet/NASA.png" width="800"> 
+
 The slow decrease in the ACF (Figure 5) as the lags increase is due to the trend. The plot also shows an indicative of a need for differencing. From the PACF plot (Figure 6), it seems like the autoregressive term is 4 (p = 4 for Arima model)
 <img src="https://github.com/FeifanLu/Climate_bet/blob/main/Climate_bet/NASA2.png" width="800">
-I used the ndiffs() function to check appropriate number of differences. It returned the diff = 1. 
-After differencing, I further performed the KPSS test - which is unit root test to find whether differencing is required and find out on data stationarity. The test statistic is 0.0227, which is below the 1 pct critical value 0.739 and this means data is stationary after differencing.
+
+I used the ndiffs() function to check appropriate number of differences. It returned the diff = 1. After differencing, I further performed the KPSS test - which is unit root test to find whether differencing is required and find out on data stationarity. The test statistic is 0.0227, which is below the 1 pct critical value 0.739 and this means data is stationary after differencing.
 
 #### UK MET ####
-<img src="https://github.com/FeifanLu/Climate_bet/blob/main/Climate_bet/UK.png" width="500">
+<img src="https://github.com/FeifanLu/Climate_bet/blob/main/Climate_bet/UK.png" width="1000">
 
 
 
