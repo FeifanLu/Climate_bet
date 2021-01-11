@@ -90,5 +90,12 @@ I used the ndiffs() function to check appropriate number of differences. It retu
 Based on our above analysis using NASA’s dataset, the [ARIMA (4, 1, 3) (0, 1, 2)[12]](https://github.com/FeifanLu/Climate_bet/blob/main/Climate_bet/NASA_final_model.png) model is recognized to have the best overall performance. The model predicts with moderate confidence that the global temperature will likely continue to rise by 2 degrees Celsius, and possibly even by 4 degrees by then.
 Based on our analysis using Met Office’s dataset, the [ARIMA (2, 1, 2) (2, 0, 0)[12]](https://github.com/FeifanLu/Climate_bet/blob/main/Climate_bet/UK_final_model.png) model is the optimal model. However, the model predicts with 90% confidence that the global temperature will likely continue to rise by 1 degrees Celsius by 2100.
 
+## Compare with the naïve model ##
+How did Armstrong get a forecast of 0.159?
+[The actual challenge is between 01 Jan 2008 and 31 Dec 2017 – 10 years](https://www.theclimatebet.com/2007/06/)
+Excerpts as below
+“Starting at the beginning of 2008, one-year ahead forecasts then two-year ahead forecasts, and so on up to ten-year-ahead forecasts of annual “mean temperature” will be made annually for each weather station for each of the next ten years. Forecasts must be submitted by the end of the first working day in January. Each calendar year would end on December 31.”
+[The forecast of 0.159 is based on another dataset UAH in link](https://www.nsstc.uah.edu/data/msu/v6.0/tlt/uahncdc_lt_6.0.txt)
+[The graph below shows the comparison between Armstrong and Al Gore forecast from climate challenge](https://github.com/FeifanLu/Climate_bet/blob/main/Climate_bet/Naive_model.png)
 
 
