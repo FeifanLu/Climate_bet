@@ -55,16 +55,24 @@ I followed a four-step approach in this part. First, explore the time series dat
 From the above, I can infer that during the late 19th century, the temperature change was negative with no apparent trend. However, in the early 20th century around approximately 1910, the temperature increase trend is noticeable. This could be due to the economic growth and industrial revolutions around the world that had a noticeable global warming impact starting from 20th century. While the impact of industrial revolution on climate is not the focus of this project, without any analysis and just by visualizing the above graphs we could infer this point.
 
 #### NASA ####
-For NASA’s data set, from the plot below, there is a clear and increasing trend starts from 1970s (Figure 2). About the seasonality (Figure 3), I couldn’t visually  see a strong seasonal pattern. From the data STL decomposition plot (Figure 4), we could see that the reminder component shown in the bottom panel is what is left over when the seasonal and trend-cycle components have been subtracted from the data.  
+For NASA’s data set, from the plot below, there is a clear and increasing trend starts from 1970s (Figure 2). About the seasonality (Figure 3), I couldn’t visually  see a strong seasonal pattern. From the data STL decomposition plot (Figure 4), we could see that the reminder component shown in the bottom panel is what is left over when the seasonal and trend-cycle components have been subtracted from the data. 
+
 <img src="https://github.com/FeifanLu/Climate_bet/blob/main/Climate_bet/NASA.png" width="800"> 
 
 The slow decrease in the ACF (Figure 5) as the lags increase is due to the trend. The plot also shows an indicative of a need for differencing. From the PACF plot (Figure 6), it seems like the autoregressive term is 4 (p = 4 for Arima model)
+
 <img src="https://github.com/FeifanLu/Climate_bet/blob/main/Climate_bet/NASA2.png" width="800">
 
-I used the ndiffs() function to check appropriate number of differences. It returned the diff = 1. After differencing, I further performed the KPSS test - which is unit root test to find whether differencing is required and find out on data stationarity. The test statistic is 0.0227, which is below the 1 pct critical value 0.739 and this means data is stationary after differencing.
 
 #### UK MET ####
+For UK's data set, similar trend was observed. From the ACF and PACF plots, I knew that I needed to use differencing to stabilize the mean of our time series data. The ACF plot identifies the non-stationary of the UK data.
+
 <img src="https://github.com/FeifanLu/Climate_bet/blob/main/Climate_bet/UK.png" width="1000">
+
+### Stationarity ###
+
+I used the ndiffs() function to check appropriate number of differences. It returned the diff = 1 on both datasets. After differencing, I further performed the KPSS test - which is unit root test to find whether differencing is required and find out on data stationarity. The test statistic on NASA dataset is 0.0227, which is below the 1 pct critical value 0.739 and this means data is stationary after differencing. It gave test statistic of 0.0079 on UK MET datset, which is below the 1 pct critical value 0.739 and this means data is stationary as well. 
+
 
 
 
