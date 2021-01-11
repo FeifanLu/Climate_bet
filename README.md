@@ -73,6 +73,21 @@ For UK's data set, similar trend was observed. From the ACF and PACF plots, I kn
 
 I used the ndiffs() function to check appropriate number of differences. It returned the diff = 1 on both datasets. After differencing, I further performed the KPSS test - which is unit root test to find whether differencing is required and find out on data stationarity. The test statistic on NASA dataset is 0.0227, which is below the 1 pct critical value 0.739 and this means data is stationary after differencing. It gave test statistic of 0.0079 on UK MET datset, which is below the 1 pct critical value 0.739 and this means data is stationary as well. 
 
+### Build Model ###
+#### Time Series CV on NASA dataset ####
+
+<img src="https://github.com/FeifanLu/Climate_bet/blob/main/Climate_bet/NASA_model.png" width="1000">
+
+#### Time Series CV on UK MET dataset ####
+
+<img src="https://github.com/FeifanLu/Climate_bet/blob/main/Climate_bet/UK_model.png" width="1000">
+
+
+
+
+### Model Selection ###
+Based on our above analysis using NASA’s dataset, the ARIMA (4, 1, 3) (0, 1, 2) [12] model is recognized to have the best overall performance. The model predicts with moderate confidence that the global temperature will likely continue to rise by 2 degrees Celsius, and possibly even by 4 degrees by then.
+Based on our analysis using Met Office’s dataset, the ARIMA (2, 1, 2) (2, 0, 0) [12] model is the optimal model. However, the model predicts with 90% confidence that the global temperature will likely continue to rise by 1 degrees Celsius by 2100.
 
 
 
