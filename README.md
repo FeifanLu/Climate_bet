@@ -41,10 +41,14 @@ Except for the difference of baseline peroid, these two datasets have different 
 
 
 ## EDA
-![test](https://github.com/FeifanLu/Climate_bet/blob/main/Climate_bet/EDA_NASA.png)
-![test](https://github.com/FeifanLu/Climate_bet/blob/main/Climate_bet/EDA_UK.png)
 <img src="https://github.com/FeifanLu/Climate_bet/blob/main/Climate_bet/EDA_NASA.png" width="500">
 <img src="https://github.com/FeifanLu/Climate_bet/blob/main/Climate_bet/EDA_UK.png" width="500">
+
+From the above, we can infer that during the late 19th century, the temperature change was negative with no apparent trend. However, in the early 20th century around approximately 1910, the temperature increase trend is noticeable. This could be due to the economic growth and industrial revolutions around the world that had a noticeable global warming impact starting from 20th century. While the impact of industrial revolution on climate is not focus of this case study, without any analysis and just by visualizing the above graphs we could infer this point.
+
+## Model Building
+Framework of the modeling approach (Figure. 1).  I followed a four-step approach in this question. First, explore the time series data visually by graphs, including patterns, changes over times and remainder term. Secondly, check stationarity and differencing, since time series with trends, seasonality are not stationary and will affect model’s prediction. Third, based on step 1 and step 2’s analysis build models.  Fourth, compare the overall performances of the candidate models using both cross validation method and accuracy test to identify the best performing model. 
+   
 
 
 
