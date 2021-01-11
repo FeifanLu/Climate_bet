@@ -76,11 +76,11 @@ I used the ndiffs() function to check appropriate number of differences. It retu
 ### Build Model ###
 #### Time Series CV on NASA dataset ####
 
-<img src="https://github.com/FeifanLu/Climate_bet/blob/main/Climate_bet/NASA_model.png" width="1000">
+<img src="https://github.com/FeifanLu/Climate_bet/blob/main/Climate_bet/NASA_model.png" width="500">
 
 #### Time Series CV on UK MET dataset ####
 
-<img src="https://github.com/FeifanLu/Climate_bet/blob/main/Climate_bet/UK_model.png" width="1000">
+<img src="https://github.com/FeifanLu/Climate_bet/blob/main/Climate_bet/UK_model.png" width="500">
 
 
 
