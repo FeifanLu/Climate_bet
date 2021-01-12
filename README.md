@@ -109,7 +109,7 @@ To compare the overall performance the two 10-year predictions from 2007-2017 an
 Note: To be consistent with Armstrong’s research  paper (Kesten C. Green, 2009), I chooses the MAE as our major measurement in the model evaluation.
 
 ## Final Conclusions:
-The benchmark model in this case is Armstrong Naïve Model
+The benchmark model in this case is Armstrong's Naïve Model
 
 •	Naïve model outperforms my best models five times in six comparisons.
 
