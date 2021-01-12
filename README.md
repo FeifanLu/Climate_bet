@@ -84,7 +84,7 @@ I used the ndiffs() function to check appropriate number of differences. It retu
 <img src="https://github.com/FeifanLu/Climate_bet/blob/main/Climate_bet/UK_model.png" width="500">
 
 ### Model Selection ###
-Based on my above analysis using NASA’s dataset, the [ARIMA (4, 1, 3) (0, 1, 2)[12]](https://github.com/FeifanLu/Climate_bet/blob/main/Climate_bet/NASA_final_model.png) model is recognized to have the best overall performance. The model predicts with moderate confidence that the global temperature will likely continue to rise by 2 degrees Celsius, and possibly even by 4 degrees by then.
+Based on my above analysis using NASA’s dataset, the [ARIMA (4, 1, 3) (0, 1, 2)[12]](https://github.com/FeifanLu/Climate_bet/blob/main/Climate_bet/NASA_final_model.png) model is recognized to have the best overall performance. The model predicts with moderate confidence that the global temperature will likely continue to rise by 2 degrees Celsius, and possibly even by 4 degrees by 2100.
 Based on our analysis using Met Office’s dataset, the [ARIMA (2, 1, 2) (2, 0, 0)[12]](https://github.com/FeifanLu/Climate_bet/blob/main/Climate_bet/UK_final_model.png) model is the optimal model. However, the model predicts with 90% confidence that the global temperature will likely continue to rise by 1 degrees Celsius by 2100.
 
 ## Compare with the naïve model:
