@@ -4,7 +4,7 @@ Many believe that climate change is one of the biggest threats to humanity and t
 
 Simultaneously, there are also many skeptics, who either do not believe in the threat or do not see a need to do much about it.
 
-A fascinating statistical debate between the supporters and skeptics of global warming is the so-called "Climate Bet" (http://www.theclimatebet.com/). The bet's nature is that Mr. Armstrong, a statistician, claims that the model predicting a constant temperature will be more accurate than the model that predicts warming. The 10-year bet was offered in 2007 by Mr. Armstrong to Mr. Gore, a global warming advocate, who declined.
+A fascinating statistical debate between the supporters and skeptics of global warming is the so-called ["Climate Bet"](http://www.theclimatebet.com/). The bet's nature is that Mr. Armstrong, a statistician, claims that the model predicting a constant temperature will be more accurate than the model that predicts warming. The 10-year bet was offered in 2007 by Mr. Armstrong to Mr. Gore, a global warming advocate, who declined.
 
 I dived into this debate and looked at the statistical evidence for global warming – a primarily scientific, fact-based view on the situation.
 
@@ -139,6 +139,8 @@ Overall, the benchmark model (naïve model) beats my models. The only victory of
 Since there are myriad reasons of climate change known and unknown to mankind, it is incorrect to assume the upward momentum of global temperature of recent decades as a consistent trend and extrapolate this trend to the future. Maybe it is just an upward part of a long-term cycle and the global temperature will eventually fall.  It also could be costly to make and execute policies based on this un-tested assumption. 
 
 Overall, accurately predicting the global absolute temperature is almost impossible due to several reasons not limited to measurement errors, unknown factors influencing weather, mystery natural phenomenon unknown to mankind.  
+
+
 
 
 
