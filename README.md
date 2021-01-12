@@ -114,6 +114,7 @@ The benchmark model in this case is Armstrong Naïve Model
 •	Only the benchmark model’s prediction on NASA dataset, 1999.1 – 2008.12, has the Theil’s U number smaller than 1, which means only this model’s forecasting technique is better than guessing. 
 Overall, the benchmark model (naïve model) beats my models. The only victory of my models happens at the 2007-2017 prediction on NASA data. The reasons could be:
 1.	NASA data is not inherently flawed compared with the UK MET data, which allows models perform as they should be. According to Mr. Armstrong’s papers, the UK MET has some flaws. 
+
    a.	Not fully disclosed
    
    b. Not global and not produced by comprehensive coverage by satellites
