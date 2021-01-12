@@ -89,8 +89,11 @@ Based on our analysis using Met Office’s dataset, the [ARIMA (2, 1, 2) (2, 0, 
 
 ## Compare with the naïve model:
 How did Armstrong get a forecast of 0.159?
-[The actual challenge is between 01 Jan 2008 and 31 Dec 2017 – 10 years](https://www.theclimatebet.com/2007/06/)
-Excerpts as below
+
+[The actual challenge is between 01 Jan 2008 and 31 Dec 2017 – 10 years.](https://www.theclimatebet.com/2007/06/)
+
+Excerpts as below:
+
 “Starting at the beginning of 2008, one-year ahead forecasts then two-year ahead forecasts, and so on up to ten-year-ahead forecasts of annual “mean temperature” will be made annually for each weather station for each of the next ten years. Forecasts must be submitted by the end of the first working day in January. Each calendar year would end on December 31.”
 [The forecast of 0.159 is based on another dataset UAH.](https://www.nsstc.uah.edu/data/msu/v6.0/tlt/uahncdc_lt_6.0.txt)
 The graph below shows the comparison between Armstrong and Al Gore forecast from climate challenge
