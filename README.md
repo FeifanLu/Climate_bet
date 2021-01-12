@@ -53,7 +53,7 @@ I followed a four-step approach in this part. First, explore the time series dat
 <img src="https://github.com/FeifanLu/Climate_bet/blob/main/Climate_bet/EDA_UK.png" width="500">
 </p>
 
-From the above, I can infer that during the late 19th century, the temperature change was negative with no apparent trend. However, in the early 20th century around approximately 1930, the temperature increasing trend became noticeable. This could be due to the economic growth and industrial revolutions around the world that had a noticeable global warming impact starting from 20th century. While the impact of industrial revolution on climate is not the focus of this project, without any analysis and just by visualizing the above graphs we could infer this point.
+From the above, during the late 19th century, the temperature change was negative with no apparent trend. However, in the early 20th century around approximately 1930, the temperature increasing trend became noticeable. This could be due to the economic growth and industrial revolutions around the world that had a noticeable global warming impact starting from 20th century. While the impact of industrial revolution on climate is not the focus of this project, without any analysis and just by visualizing the above graphs I could infer this point.
 
 #### NASA ####
 For NASA’s data set, from the plot below, there is a clear and increasing trend starts from 1970s (Figure 2). About the seasonality (Figure 3), I couldn’t visually  see a strong seasonal pattern. From the data STL decomposition plot (Figure 4), we could see that the reminder component shown in the bottom panel is what is left over when the seasonal and trend-cycle components have been subtracted from the data. 
