@@ -116,13 +116,13 @@ Overall, the benchmark model (naïve model) beats my models. The only victory of
 
 1.	NASA data is not inherently flawed compared with the UK MET data, which allows models perform as they should be. According to Mr. Armstrong’s papers, the UK MET has some flaws. 
 
-   a.	Not fully disclosed
+      a.	Not fully disclosed
    
-   b. Not global and not produced by comprehensive coverage by satellites
+      b. Not global and not produced by comprehensive coverage by satellites
    
-   c.	Not avoid local effects such as encroachment by buildings, tarmac, and other heat sources
+      c.	Not avoid local effects such as encroachment by buildings, tarmac, and other heat sources
    
-   d.	Not avoid inconsistent measurement.
+      d.	Not avoid inconsistent measurement.
    
 These flaws damage the data quality, which could cause models produce inconsistent and unrealistic prediction. 
 
