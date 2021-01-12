@@ -108,10 +108,15 @@ Note: To be consistent with Armstrong’s research  paper (Kesten C. Green, 2009
 
 ## Final Conclusions:
 The benchmark model in this case is Armstrong Naïve Model
-•	Naïve model outperforms my best models five times in six comparisons. 
+
+•	Naïve model outperforms my best models five times in six comparisons.
+
 •	Naïve model’s performances are stable at two different datasets. Nevertheless, the MAE increases with the increasing forecast horizon. 
+
 •	My best model for NASA dataset works as expected, but the best model for UK dataset works awkwardly. Especially for the 1999.1 – 2018.12 prediction on UK MET dataset, that model yields a two times MAE compared with the benchmark model.
+
 •	Only the benchmark model’s prediction on NASA dataset, 1999.1 – 2008.12, has the Theil’s U number smaller than 1, which means only this model’s forecasting technique is better than guessing. 
+
 Overall, the benchmark model (naïve model) beats my models. The only victory of my models happens at the 2007-2017 prediction on NASA data. The reasons could be:
 
 1.	NASA data is not inherently flawed compared with the UK MET data, which allows models perform as they should be. According to Mr. Armstrong’s papers, the UK MET has some flaws. These flaws damage the data quality, which could cause models produce inconsistent and unrealistic prediction.
