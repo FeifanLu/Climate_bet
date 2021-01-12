@@ -1,6 +1,6 @@
 # Climate Bet : Statistical View of Global Warming
 ## Background: 
-Many believe that climate change is one of the biggest threats to humanity and that massive changesmmust be made in how we live to revert it and reduce its impact.
+Many believe that climate change is one of the biggest threats to humanity and that massive changes mmust be made in how we live to revert it and reduce its impact.
 
 Simultaneously, there are also many skeptics, who either do not believe in the threat or do not see a need to do much about it.
 
@@ -15,7 +15,7 @@ I dived into this debate and looked at the statistical evidence for global warmi
 * Train the two best models on the pre-2007 data and use them to make predictions. Then make the naïve model forecast of constant temperature per [Mr. Armstrong's method](http://www.kestencgreen.com/G&A-Skyfall.pdf)  and compare the three models using the actual temperatures for 2007-2017 (a period of the bet).
 * Repeat the same analyses starting in the year 1999 with 10- and 20-year time-intervals.
 
-## Code and Resources Used 
+## Code and Resources Used:
 **R Version:** 4.03 
 
 **Packages:** forecast, fpp, ggplot2, astsa 
@@ -29,7 +29,7 @@ https://repository.upenn.edu/cgi/viewcontent.cgiarticle=1161&context=marketing_p
 
 **Modelling Reference:** https://otexts.com/fpp2/
 
-## Data Cleaning
+## Data Cleaning:
 Both datasets present global temperature anomalies: the difference between the temperature for the month and the average monthly temperature for the baseline 30-year peroid. 
 
 NASA dataset is from 1880 to 2020 and the baseline is 1951-1980. 
@@ -42,7 +42,7 @@ As I noticed, the baseline for NASA dataset is 1951-1980(30 years) and for UK ME
 <img src="https://github.com/FeifanLu/Climate_bet/blob/main/Climate_bet/Data_difference.png" width="500">
 
 
-## Model Building
+## Model Building:
 I followed a four-step approach in this part. First, explore the time series data visually by graphs, including patterns, changes over times and remainder term. Secondly, check stationarity and differencing, since time series with trends, seasonality are not stationary and will affect model’s prediction. Third, based on step 1 and step 2’s analysis build models.  Fourth, compare the overall performances of the candidate models using both cross validation method and accuracy test to identify the best performing model. 
    
 <img src="https://github.com/FeifanLu/Climate_bet/blob/main/Climate_bet/Modelling_Process.png" width="500" length="600">
@@ -83,14 +83,11 @@ I used the ndiffs() function to check appropriate number of differences. It retu
 
 <img src="https://github.com/FeifanLu/Climate_bet/blob/main/Climate_bet/UK_model.png" width="500">
 
-
-
-
 ### Model Selection ###
 Based on our above analysis using NASA’s dataset, the [ARIMA (4, 1, 3) (0, 1, 2)[12]](https://github.com/FeifanLu/Climate_bet/blob/main/Climate_bet/NASA_final_model.png) model is recognized to have the best overall performance. The model predicts with moderate confidence that the global temperature will likely continue to rise by 2 degrees Celsius, and possibly even by 4 degrees by then.
 Based on our analysis using Met Office’s dataset, the [ARIMA (2, 1, 2) (2, 0, 0)[12]](https://github.com/FeifanLu/Climate_bet/blob/main/Climate_bet/UK_final_model.png) model is the optimal model. However, the model predicts with 90% confidence that the global temperature will likely continue to rise by 1 degrees Celsius by 2100.
 
-## Compare with the naïve model ##
+## Compare with the naïve model:
 How did Armstrong get a forecast of 0.159?
 [The actual challenge is between 01 Jan 2008 and 31 Dec 2017 – 10 years](https://www.theclimatebet.com/2007/06/)
 Excerpts as below
@@ -106,7 +103,7 @@ To compare the overall performance the two 10-year predictions from 2007-2017 an
 
 Note: To be consistent with Armstrong’s research  paper (Kesten C. Green, 2009), I chooses the MAE as our major measurement in the model evaluation.
 
-### Final Conclusions ###
+## Final Conclusions:
 The benchmark model in this case is Armstrong Naïve Model
 •	Naïve model outperforms my best models five times in six comparisons. 
 •	Naïve model’s performances are stable at two different datasets. Nevertheless, the MAE increases with the increasing forecast horizon. 
