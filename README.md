@@ -100,6 +100,8 @@ The graph below shows the comparison between Armstrong and Al Gore forecast from
 
 <img src="https://github.com/FeifanLu/Climate_bet/blob/main/Climate_bet/Naive_model.png" width="500" length="600">
 
+To replicate Mr.Armstrong's naïve model on the NASA and UK MET dataset. I calculated the means of temeprature anamolies for 12 months of the year before the first year of the prediction peroids. The I added these means to 14 (the baseline temperatre) as the naive predictions.
+
 To compare the overall performance the two 10-year predictions from 2007-2017 and 1999-2018 and the one 20-year prediction from 1999-2018 are included in the table below. A score of 1 and 0 for winning and losing was considered and totaled. This is consolidated in table below
 
 <img src="https://github.com/FeifanLu/Climate_bet/blob/main/Climate_bet/Result.png" width="800" length="600">
