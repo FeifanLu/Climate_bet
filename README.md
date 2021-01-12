@@ -45,7 +45,7 @@ As I noticed, the baseline for NASA dataset is 1951-1980(30 years) and for UK ME
 ## Model Building
 I followed a four-step approach in this part. First, explore the time series data visually by graphs, including patterns, changes over times and remainder term. Secondly, check stationarity and differencing, since time series with trends, seasonality are not stationary and will affect model’s prediction. Third, based on step 1 and step 2’s analysis build models.  Fourth, compare the overall performances of the candidate models using both cross validation method and accuracy test to identify the best performing model. 
    
-<img src="https://github.com/FeifanLu/Climate_bet/blob/main/Climate_bet/Modelling_Process.png" width="500" lengt="600">
+<img src="https://github.com/FeifanLu/Climate_bet/blob/main/Climate_bet/Modelling_Process.png" width="500" length="600">
 
 ### EDA ###
 <p float="left">
@@ -98,32 +98,35 @@ Excerpts as below
 [The forecast of 0.159 is based on another dataset UAH.](https://www.nsstc.uah.edu/data/msu/v6.0/tlt/uahncdc_lt_6.0.txt)
 The graph below shows the comparison between Armstrong and Al Gore forecast from climate challenge
 
-<img src="https://github.com/FeifanLu/Climate_bet/blob/main/Climate_bet/Naive_model.png" width="500" lengt="600">
+<img src="https://github.com/FeifanLu/Climate_bet/blob/main/Climate_bet/Naive_model.png" width="500" length="600">
 
 To compare the overall performance the two 10-year predictions from 2007-2017 and 1999-2018 and the one 20-year prediction from 1999-2018 are included in the table below. A score of 1 and 0 for winning and losing was considered and totaled. This is consolidated in table below
 
-<img src="https://github.com/FeifanLu/Climate_bet/blob/main/Climate_bet/Result.png" width="500" lengt="600">
+<img src="https://github.com/FeifanLu/Climate_bet/blob/main/Climate_bet/Result.png" width="800" length="600">
 
 Note: To be consistent with Armstrong’s research  paper (Kesten C. Green, 2009), I chooses the MAE as our major measurement in the model evaluation.
 
 ### Final Conclusions ###
-The benchmark model in our case is Armstrong Naïve Model
-•	Naïve model outperforms our best models five times in six comparisons. 
+The benchmark model in this case is Armstrong Naïve Model
+•	Naïve model outperforms my best models five times in six comparisons. 
 •	Naïve model’s performances are stable at two different datasets. Nevertheless, the MAE increases with the increasing forecast horizon. 
-•	Our best model for NASA dataset works as expected, but the best model for UK dataset works awkwardly. Especially for the 1999.1 – 2018.12 prediction on UK MET dataset, that model yields
-a two times MAE compared with the benchmark model.
+•	My best model for NASA dataset works as expected, but the best model for UK dataset works awkwardly. Especially for the 1999.1 – 2018.12 prediction on UK MET dataset, that model yields a two times MAE compared with the benchmark model.
 •	Only the benchmark model’s prediction on NASA dataset, 1999.1 – 2008.12, has the Theil’s U number smaller than 1, which means only this model’s forecasting technique is better than guessing. 
-Overall, the benchmark model (naïve model) beats our models. The only victory of our model happens at the 2007-2017 prediction on NASA data. The reasons could be:
+Overall, the benchmark model (naïve model) beats my models. The only victory of my models happens at the 2007-2017 prediction on NASA data. The reasons could be:
 1.	NASA data is not inherently flawed compared with the UK MET data, which allows models perform as they should be. According to Mr. Armstrong’s papers, the UK MET has some flaws. 
    a.	Not fully disclosed
+   
    b. Not global and not produced by comprehensive coverage by satellites
+   
    c.	Not avoid local effects such as encroachment by buildings, tarmac, and other heat sources
+   
    d.	Not avoid inconsistent measurement.
+   
 These flaws damage the data quality, which could cause models produce inconsistent and unrealistic prediction. 
 
 2.	There is an upward momentum in 2007-2017 and our model can capture that one, which is a disadvantage for the naïve model.
 
-3.	Over longer policy-relevant periods, annual global mean temperatures are highly stable and naïve model would beat our models all the time. However, in short-term forecasting, our model can get lucky because there could be a relatively consistent momentum or trend to be captured. 
+3.	Over longer policy-relevant periods, annual global mean temperatures are highly stable and naïve model would beat our models all the time. However, in short-term forecasting, my model can get lucky because there could be a relatively consistent momentum or trend to be captured. 
 
 Since there are myriad reasons of climate change known and unknown to mankind, it is incorrect to assume the upward momentum of global temperature of recent decades as a consistent trend and extrapolate this trend to the future. Maybe it is just an upward part of a long-term cycle and the global temperature will eventually fall.  It also could be costly to make and execute policies based on this un-tested assumption. 
 
