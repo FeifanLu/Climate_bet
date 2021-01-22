@@ -8,6 +8,8 @@ A fascinating statistical debate between the supporters and skeptics of global w
 
 I dived into this debate and looked at the statistical evidence for global warming – a primarily scientific, fact-based view on the situation.
 
+This case is a part of project for MMA867 - predictive modelling. Thanks professor [Anton Ovchinnikov](https://www.linkedin.com/in/antonovchinnikov/?originalSubdomain=ca) for introducing this topic and framing questions.
+
 ## Overview:
 * Obtain the data from [NASA](https://data.giss.nasa.gov/gistemp/) and [UK MET Office](https://crudata.uea.ac.uk/cru/data/temperature/). Mr.Armstrong used NASA data for his analysis. Mr.Gore's team used UK MET data for their analysis.
 * Apply time series analysis and train six models on NASA data and seven models on UK MET data.
